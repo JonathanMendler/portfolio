@@ -46,7 +46,7 @@ html {
 }
 
 body {
-  @apply text-lg
+  @apply text-lg;
 }
 
 .projects img {
@@ -55,30 +55,38 @@ body {
 
 /* color */
 .bg-primary {
-  background: #0F172A;
+  background: #0f172a;
 }
 
 .bg-secondary {
-  background: #1E293B;
+  background: #1e293b;
 }
 
 .bg-accent {
-  background: #7477FF;
+  background: #7477ff;
 }
 
 .text-accent {
-  color: #7477FF;
+  color: #7477ff;
 }
-
 
 nav li a {
   @apply px-4 py-5 text-lg;
 }
 
 nav li a:hover {
-  color: #7477FF;
+  color: #7477ff;
 }
 
 .mobile-nav {
   @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+}
+
+/* Champion font */
+h1 {
+  font-family: "Asap", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "width" 100;
 }
