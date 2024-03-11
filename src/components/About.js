@@ -1,5 +1,5 @@
 import React from "react";
-// import AboutImg from "../assets/about-img.png";
+import AboutImg from "../assets/about.png";
 
 const About = () => {
   return (
@@ -16,6 +16,10 @@ const About = () => {
             My tech stack includes Ruby on Rails, BootStrap, and PostgreSQL on the Backend, while I create eye-catching
             UI on the Frontend with JavaScript, React.js, and Tailwind CSS.
           </p>
+        </div>
+
+        <div className="about-img">
+          <img src={AboutImg} alt="Coding illustration" className="rounded-3xl lgw-[80%] md:ml-auto" />
         </div>
       </div>
     </section>
