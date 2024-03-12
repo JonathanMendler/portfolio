@@ -1,7 +1,7 @@
 import React from "react";
 import ChampionImg from "../assets/Avatar.png";
 
-import { SiThreads, SiYoutube, SiTwitch } from "react-icons/si";
+import { SiLinkedin, SiGithub, SiTwitch } from "react-icons/si";
 
 const Champion = () => {
   return (
@@ -16,18 +16,15 @@ const Champion = () => {
 
           <div className="flex py-5">
             <a
-              href="https://www.threads.net/@johnnyonthemend"
+              href="https://www.linkedin.com/in/jonathan-mendler/"
               className="pr-4 inline-block text accent hover:text-white"
             >
               {" "}
-              <SiThreads size={40} />{" "}
+              <SiLinkedin size={40} />{" "}
             </a>
-            <a
-              href="https://www.youtube.com/@johnnyonthemend"
-              className="pr-4 inline-block text accent hover:text-white"
-            >
+            <a href="https://github.com/JonathanMendler" className="pr-4 inline-block text accent hover:text-white">
               {" "}
-              <SiYoutube size={40} />{" "}
+              <SiGithub size={40} />{" "}
             </a>
             <a href="https://www.twitch.tv/johnnyonthemend" className="pr-4 inline-block text accent hover:text-white">
               {" "}
