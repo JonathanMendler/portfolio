@@ -9,7 +9,7 @@ const About = () => {
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">About Me</h2>
 
           <p className="pb-5">
-            Hello there! I'm Jonathan, an enthusiastic Full Stack Developer with an eye for crafting high-quality
+            Hello there! I'm Jonathan, an enthusiastic Full Stack Developer with a penchant for crafting high-quality
             solutions that exceed expectations and leave a lasting impression.
           </p>
           <p className="pb-5">
