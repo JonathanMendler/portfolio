@@ -13,8 +13,8 @@ const About = () => {
             solutions that exceed expectations and leave a lasting impression.
           </p>
           <p className="pb-5">
-            My tech stack includes Ruby on Rails, BootStrap, and PostgreSQL on the Backend, while I create eye-catching
-            UI on the Frontend with JavaScript, React.js, and Tailwind CSS.
+            My tech stack includes Ruby on Rails and PostgreSQL on the Backend, while I create eye-catching UI on the
+            Frontend with JavaScript, React.js, Bootstrap, and Tailwind CSS.
           </p>
         </div>
 

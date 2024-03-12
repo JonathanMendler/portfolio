@@ -6,8 +6,8 @@ const Contact = () => {
       <div className="text-center md:w-[60%] mx-auto text-white">
         <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[200px] mx-auto border-indigo-600 pb-2">Contact Me</h2>
         <p>
-          I am currently seeking a Full Stack Developer role. If you would like to discuss any open positions with me,
-          you can contact me via one of the following methods.
+          If you would like to collaborate with me on any projects or discuss open positions, you can contact me via one
+          of the following methods.
         </p>
 
         <p className="py-2">

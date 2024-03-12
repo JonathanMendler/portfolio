@@ -1,10 +1,16 @@
 import React, { useState } from "react";
+import { saveAs } from "file-saver";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import ChampionImg from "../assets/ProfilePic.png";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => setToggle(!toggle);
+
+  // const handleDownload = () => {
+  //   const fileContent =
+  // }
 
   return (
     <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
@@ -20,9 +26,6 @@ const Header = () => {
           </li>
           <li>
             <a href="/#projects">Projects</a>
-          </li>
-          <li>
-            <a href="/#Blog">Blog</a>
           </li>
           <li>
             <a href="/#contact">Contact</a>
@@ -47,9 +50,6 @@ const Header = () => {
           </li>
           <li>
             <a href="/#projects">Projects</a>
-          </li>
-          <li>
-            <a href="/#Blog">Blog</a>
           </li>
           <li>
             <a href="/#contact">Contact</a>

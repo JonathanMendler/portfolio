@@ -10,10 +10,11 @@ const Champion = () => {
         <div className="champion-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
             Hi, <br />
-            I'm <span className="text-accent">J</span>onathan! <br /> Full Stack Developer
+            I'm Jonathan! <br />
+            Full Stack Developer
           </h1>
 
-          <p className="py-5">My proficiencies lie in Ruby on Rails, JavaScript, React.js, and Tailwind CSS.</p>
+          <p className="py-5">Proficient in Ruby on Rails, JavaScript, React.js, and Tailwind CSS.</p>
 
           <div className="flex py-5">
             <a
