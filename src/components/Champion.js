@@ -1,5 +1,5 @@
 import React from "react";
-import ChampionImg from "../assets/Avatar.png";
+import ChampionImg from "../assets/ProfilePic.png";
 
 import { SiLinkedin, SiGithub, SiTwitch } from "react-icons/si";
 
@@ -9,7 +9,8 @@ const Champion = () => {
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md: justify-between">
         <div className="champion-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
-            Hello! <br />I am <span className="text-accent">J</span>onathan <br /> Full Stack Developer
+            Hi, <br />
+            I'm <span className="text-accent">J</span>onathan! <br /> Full Stack Developer
           </h1>
 
           <p className="py-5">My proficiencies lie in Ruby on Rails, JavaScript, React.js, and Tailwind CSS.</p>
