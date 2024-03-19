@@ -1,13 +1,13 @@
 import React from "react";
-import ChampionImg from "../assets/ProfilePic.png";
+import HeroImg from "../assets/ProfilePic.png";
 
 import { SiLinkedin, SiGithub, SiTwitch } from "react-icons/si";
 
-const Champion = () => {
+const Hero = () => {
   return (
     <section className="bg-primary px-5 text-white py-32">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md: justify-between">
-        <div className="champion-info pb-5 md:pb-0">
+        <div className="Hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
             Hi, <br />
             I'm Jonathan! <br />
@@ -42,12 +42,12 @@ const Champion = () => {
           </a>
         </div>
 
-        <div className="ChampionImg">
-          <img src={ChampionImg} alt="ChampionImg" className="rounded-3xl lgw-[80%] ml-auto" />
+        <div className="HeroImg">
+          <img src={HeroImg} alt="HeroImg" className="rounded-3xl lgw-[80%] ml-auto" />
         </div>
       </div>
     </section>
   );
 };
 
-export default Champion;
+export default Hero;

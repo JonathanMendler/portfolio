@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+// import { NavLink } from "react-router-dom";
 import { saveAs } from "file-saver";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import ResumeFile from "../assets/Jonathan_Mendler_FS_Software_Developer.pdf";
+import resume from "../assets/Jonathan_Mendler_FS_Software_Developer.png";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -27,6 +28,11 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
+            {/* <NavLink>
+              <a href="" className="resume">
+                <img className="resume" src={resume} alt="resume" />
+              </a>
+            </NavLink> */}
             <a
               href="https://drive.google.com/file/d/1PsmJyyVftTM_0dN562En7Ynl4OWBTH8j/view?usp=drive_link"
               target="_blank"
