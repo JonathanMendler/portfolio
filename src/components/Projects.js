@@ -1,6 +1,6 @@
 import React from "react";
 import CoCa from "../assets/CoCa.png";
-import DevLoom from "../assets/placeholder.png";
+import DevLoom from "../assets/DevLoomIconFull.png";
 
 const Projects = () => {
   const projects = [
@@ -14,7 +14,7 @@ const Projects = () => {
     {
       img: DevLoom,
       title: "DevLoom",
-      desc: "Full Stack blogging web app built with the developer in mind. Tech Stack: Ruby on Rails, JavaScript, React, Tailwind CSS, PostgreSQL",
+      desc: "Full Stack blogging web app built with the developer in mind. Tech Stack: Ruby on Rails, JavaScript, React, Tailwind CSS, PostgreSQL (Work in Progress)",
       live: "N/A",
       code: "https://github.com/JonathanMendler/DevLoom",
     },
@@ -39,8 +39,8 @@ const Projects = () => {
         {projects.map((project, i) => {
           return (
             <div className="relative" key={i}>
-              <img src={project.img} alt={project.title} />
-              <div className="flex absolute left-0 right-0 top-[23px] bottom-0 mx-auto w-[90%] h-[90%] bg-primary opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
+              <img src={project.img} alt={project.title} className="rounded-3xl lgw-[80%] md:ml-auto" />
+              <div className="flex absolute rounded-3xl left-0 right-0 top-[23px] bottom-0 mx-auto w-[90%] h-[90%] bg-primary opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
                 <p className="py-5 text-center font-bold px-2 text-white">{project.desc}</p>
 
                 <div className="mx-auto">
