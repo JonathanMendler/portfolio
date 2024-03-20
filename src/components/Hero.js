@@ -33,7 +33,7 @@ const Hero = () => {
               <SiTwitch size={40} />{" "}
             </a>
           </div>
-
+          <br></br>
           <a
             href="/#projects"
             className=" btn bg-accent border-2 border-[#7477FF text-white px-3 py-3 hover:bg-transparent"
@@ -42,7 +42,7 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="HeroImg">
+        <div className="hero-img">
           <img src={HeroImg} alt="HeroImg" className="rounded-3xl lgw-[80%] ml-auto" />
         </div>
       </div>
