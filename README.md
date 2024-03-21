@@ -1,11 +1,3 @@
-# Welcome to my portfolio.
-
-## Stack used:
-- JavaScript
-* React
-+ Vite
-- Tailwind 
-
 # Getting Started with Create React App + Vite
 
 This project was created with Tailwind for optimized mobile responsiveness [Create React App | Vite + Tailwind](https://tailwindcss.com/docs/guides/vite).
