@@ -1,10 +1,10 @@
-#Welcome to my portfolio.
+# Welcome to my portfolio.
 
-##Stack used:
--JavaScript
-*React
-+Vite
--Tailwind
+## Stack used:
+- JavaScript
+* React
++ Vite
+- Tailwind 
 
 # Getting Started with Create React App + Vite
 
