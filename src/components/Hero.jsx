@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImg from "../assets/tech.svg";
+import HeroImg from "../assets/propic.jpg";
 
 import { RiGithubFill, RiLinkedinBoxFill } from "react-icons/ri";
 
