@@ -19,16 +19,12 @@ body {
   background: #0F172A;
 }
 
-.bg-secondery {
+.bg-secondary {
   background: #1E293B;
 }
 
 .bg-accent {
   background: #7477FF;
-}
-
-.text-accent {
-  color: #7477FF;
 }
 
 
@@ -42,4 +38,11 @@ nav li a:hover {
 
 .mobile-nav {
   @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+}
+
+/* Hero */
+h1{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
