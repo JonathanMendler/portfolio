@@ -9,6 +9,7 @@ The stack includes:
 - [React v18.2.0](https://react.dev/)
 - [Vite v5.2.0](https://vitejs.dev/)
 - [TailwindCSS v3.4.3](https://tailwindui.com/)
+- [React-icons v5.2.0](https://www.npmjs.com/package/react-icons)
 
 ## Installation and Setup Instructions 
 
