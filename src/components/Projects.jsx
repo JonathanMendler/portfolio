@@ -8,7 +8,7 @@ const Projects = () => {
     {
       img: coca,
       title: "CoCa",
-      desc: "Vanilla HTML and CSS website demonstrating paralax scrolling effect",
+      desc: "Vanilla HTML and CSS website demonstrating parallax scrolling effect (Parallax only visible on desktop)",
       live: "https://jonathanmendler.github.io/coca/",
       code: "https://github.com/JonathanMendler/coca",
     },
