@@ -9,12 +9,15 @@ const Hero = () => {
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
-            Hello! <br />I am Jonathan
+            Hey there! <br />I am Jonathan
             <br />
             Full Stack Developer
           </h1>
 
-          <p className="py-5">I am proficient in Ruby on Rails, JavaScript, React.js, Vite and Tailwind CSS</p>
+          <p className="py-5">
+            With a diverse skill set spanning technologies such as Ruby on Rails, Postgres, JavaScript, React, Vite, and
+            Tailwind, I thrive on bringing ideas to life through code.
+          </p>
 
           <div className="flex py-5">
             <a href="https://github.com/JonathanMendler" className="pr-4 inline-block text-accent hover:text-white">
@@ -39,7 +42,7 @@ const Hero = () => {
         </div>
 
         <div className="hero-img">
-          <img src={HeroImg} alt="coding illustration" className="lgw-[80%] rounded-3xl ml-auto" />
+          <img src={HeroImg} alt="coding illustration" className="lgw-[80%] rounded-3xl p-3 ml-auto" />
         </div>
       </div>
     </section>

@@ -22,7 +22,7 @@ const Projects = () => {
     {
       img: dumbsplain,
       title: "Dumbsplain",
-      desc: "Conversational LLM trivia game. Independent Contributor",
+      desc: "Conversational LLM trivia game. Independent Contributor at Unfinite",
       live: "https://dumbsplain.com//",
     },
   ];
@@ -34,7 +34,9 @@ const Projects = () => {
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">Projects</h2>
 
           <p className="pb-5">
-            These are some of my best projects. I have built these with React, MERN and vanilla CSS. Check them out.
+            Where code meets creativity! Below are highlights of some projects I have had the pleasure of working on.
+            Each project represents a journey of problem-solving, innovation, and collaboration. From sleek web
+            interfaces, to robust backend systems, feel free to explore my creations!
           </p>
         </div>
 
@@ -45,15 +47,15 @@ const Projects = () => {
         {projects.map((project, i) => {
           return (
             <div className="relative" key={i}>
-              <img src={project.img} alt={project.title} />
-              <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%] rounded-3xl bg-secondary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
+              <img className="proj-img rounded-3xl" src={project.img} alt={project.title} />
+              <div className="flex absolute left-0 right-0 top-[22px] bottom-0 mx-auto w-[90%] h-[90%] rounded-3xl bg-secondary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
                 <p className="py-5 text-center font-bold px-2 text-white">{project.desc}</p>
 
                 <div className="mx-auto">
-                  <a href={project.live} className="px-5 py-2 bg-blue-500 hover:bg-blue-600 mr-5 font-bold">
+                  <a href={project.live} className="px-5 py-2 bg-blue-500 hover:bg-blue-600 rounded-3xl mr-5 font-bold">
                     Live
                   </a>
-                  <a href={project.code} className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold">
+                  <a href={project.code} className="px-5 py-2 bg-blue-700 hover:bg-blue-800 rounded-3xl font-bold">
                     Code
                   </a>
                 </div>

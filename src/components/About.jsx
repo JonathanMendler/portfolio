@@ -9,24 +9,32 @@ const About = () => {
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">About Me</h2>
 
           <p className="pb-5">
-            Hi, My Name Is Rohima Akther everyone calls me Amrin. I am a Frontend Developer. I build beautifull websites
-            with React and Tailwind CSS.
+            My journey in the realm of software engineering began with a deep fascination for problem-solving and a
+            relentless curiosity to understand how things work under the hood. I've honed my skills in building scalable
+            web applications, crafting elegant user interfaces, and architecting backend systems that stand the test of
+            time.
           </p>
           <p className="pb-5">
-            I am proficient in Frontend skills like React.js, Redux, Redux Tool Kit, Axios, Tailwind CSS, SaSS, Css3 and
-            many more.
+            Whether it's diving into the backend intricacies of Ruby on Rails or sculpting intuitive user experiences
+            with React, I approach each project with dedication and a keen eye for detail. I am intrinsically motivated
+            to find the intersection of beauty and function in code, crafting digital experiences that resonate with
+            users and drive meaningful outcomes for businesses.
           </p>
 
-          <p>In backend I know Node.js, Express.js, MongoDB, and Mongoose</p>
+          <p className="pb-5">
+            Beyond the screen, you'll often find me exploring the latest tech trends, experimenting with new frameworks,
+            or immersing myself in the vibrant developer community. I believe in the power of continuous learning and
+            strive to stay at the forefront of technology to deliver innovative solutions that exceed expectations.
+          </p>
 
-          <p>
-            In my spare time I create YouTube videos and write blogs on my Blog. Where I talk about programming theory
-            and build various projects.
+          <p className="pb-5">
+            If you're looking to collaborate on a project or simply want to geek out about all things tech, feel free to
+            reach out. Let's build something awesome together!
           </p>
         </div>
 
         <div className="about-img">
-          <img src={AboutImg} alt="coding illustration" className="lgw-[80%] rounded-3xl md:ml-auto" />
+          <img src={AboutImg} alt="coding illustration" className="lgw-[80%] rounded-3xl p-3 md:ml-auto" />
         </div>
       </div>
     </section>
