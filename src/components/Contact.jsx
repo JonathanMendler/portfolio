@@ -8,10 +8,14 @@ const Contact = () => {
         <p>Interested in building something together? Let's chat!</p>
 
         <p className="mt-3 py-1">
-          <span className="font-bold">Email:</span> jon.mendler@gmail.com
+          <span className="font-bold">Email:</span>
+          <br />
+          {/* Clickable email link */}
+          <a href="mailto:jon.mendler@gmail.com">jon.mendler@gmail.com</a>
         </p>
         <p className="py-1">
-          <span className="font-bold">Phone:</span> (219) 669-3013
+          <span className="font-bold">Phone:</span>
+          <br /> (219) 669-3013
         </p>
       </div>
     </section>

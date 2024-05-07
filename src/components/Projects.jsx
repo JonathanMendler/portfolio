@@ -15,7 +15,7 @@ const Projects = () => {
     {
       img: devloom,
       title: "DevLoom",
-      desc: "Full Stack blogging app designed to function as a developers work journal",
+      desc: "(WIP) Full Stack blogging app designed to function as a developers work journal",
       live: "https://devloom.xyz/",
       code: "https://github.com/JonathanMendler/DevLoom",
     },
@@ -50,7 +50,7 @@ const Projects = () => {
               <img className="proj-img rounded-3xl" src={project.img} alt={project.title} />
               <div className="flex absolute left-0 right-0 top-[22px] bottom-0 mx-auto w-[90%] h-[90%] rounded-3xl bg-secondary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
                 <p className="py-5 text-center font-bold px-2 text-white">{project.desc}</p>
-
+                {/* Code and site link */}
                 <div className="mx-auto">
                   <a href={project.live} className="px-5 py-2 bg-blue-500 hover:bg-blue-600 rounded-3xl mr-5 font-bold">
                     Live
