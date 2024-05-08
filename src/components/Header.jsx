@@ -24,7 +24,7 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="#resume -link" target="_blank" without rel="noreferrer">
+            <a href="#resume-link" target="_blank" rel="noreferrer">
               Resume
             </a>
           </li>
