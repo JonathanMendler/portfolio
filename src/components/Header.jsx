@@ -20,7 +20,7 @@ const Header = () => {
 
       {/* Desktop Nav */}
       <nav className="hidden md:block">
-        <ul className="flex">
+        <ul className="flex gap-1">
           <li>
             <a href="/#about">About</a>
           </li>
@@ -31,7 +31,9 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <button onClick={toggleModal}>Resume</button>
+            <button className="pdf mx-2" onClick={toggleModal}>
+              Resume
+            </button>
             {isModal && <Modal setToggleModal={toggleModal} />}
           </li>
         </ul>
