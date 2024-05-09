@@ -15,14 +15,14 @@ const Projects = () => {
     {
       img: devloom,
       title: "DevLoom",
-      desc: "(WIP) Full Stack blogging app designed to function as a developers work journal",
+      desc: "(WIP/MVP) Full Stack blogging app designed to function as a developers work journal",
       live: "https://devloom.xyz/",
       code: "https://github.com/JonathanMendler/DevLoom",
     },
     {
       img: dumbsplain,
       title: "Dumbsplain",
-      desc: "Conversational LLM trivia game. Independent Contributor at Unfinite",
+      desc: "Conversational LLM trivia game | Independent Contributor at Unfinite | Code is private repo",
       live: "https://dumbsplain.com//",
     },
   ];

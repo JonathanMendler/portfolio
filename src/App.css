@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -14,11 +20,11 @@ body {
   width: 100%;
 }
 
-.Modal {
+/* .Modal {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 /* color */
 .bg-primary {

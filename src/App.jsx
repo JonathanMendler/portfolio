@@ -5,7 +5,6 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-// import Modal from "./components/Modal";
 // import PdfDownload from "./components/PdfDownload";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
       <Contact />
       <Footer />
       {/* <PdfDownload /> */}
-      {/* <Modal /> */}
     </>
   );
 }
