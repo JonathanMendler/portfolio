@@ -14,6 +14,12 @@ body {
   width: 100%;
 }
 
+.Modal {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* color */
 .bg-primary {
   background: #0F172A;

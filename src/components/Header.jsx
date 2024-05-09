@@ -1,11 +1,18 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import logo from "../assets/jm.png";
+import Modal from "../components/Modal";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => setToggle(!toggle);
+
+  const [isModal, setModal] = useState(false);
+
+  const toggleModal = () => {
+    setModal(!isModal);
+  };
 
   return (
     <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
@@ -24,9 +31,8 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="#resume-link" target="_blank" rel="noreferrer">
-              Resume
-            </a>
+            <button onClick={toggleModal}>Resume</button>
+            {isModal && <Modal setToggleModal={toggleModal} />}
           </li>
         </ul>
       </nav>
