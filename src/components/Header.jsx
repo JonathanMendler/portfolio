@@ -30,12 +30,6 @@ const Header = () => {
           <li>
             <a href="/#contact">Contact</a>
           </li>
-          <li>
-            <button className="pdf mx-2" onClick={toggleModal}>
-              Resume
-            </button>
-            {isModal && <Modal setToggleModal={toggleModal} />}
-          </li>
         </ul>
       </nav>
 
@@ -50,9 +44,6 @@ const Header = () => {
           </li>
           <li>
             <a href="/#contact">Contact</a>
-          </li>
-          <li>
-            <a href="/#resume">Resume</a>
           </li>
         </ul>
       </nav>
