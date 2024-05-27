@@ -7,7 +7,7 @@ import { RiGithubFill, RiLinkedinBoxFill } from "react-icons/ri";
 
 const Hero = () => {
   return (
-    <section className="bg-secondary px-5 text-white py-32">
+    <section className="bg-primary px-5 text-teal-800 py-32">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
@@ -17,11 +17,11 @@ const Hero = () => {
           </h1>
 
           <p className="py-5">
-            With a diverse skill set spanning technologies such as Ruby on Rails, Postgres, JavaScript, React, Vite, and
+            With a diverse skill set spanning technologies such as Ruby on Rails, Postgres, JavaScript, React, and
             Tailwind, I thrive on bringing ideas to life through code.
           </p>
 
-          <div className="flex py-5">
+          <div className="flex py-5 text-black">
             <a href="https://github.com/JonathanMendler" className="pr-4 inline-block text-accent hover:text-white">
               {" "}
               <RiGithubFill size={40} />{" "}
@@ -37,7 +37,7 @@ const Hero = () => {
 
           <a
             href="/#projects"
-            className=" btn bg-accent border-2 border-[#7477FF] text-white px-6 py-3 rounded-3xl hover:bg-transparent"
+            className=" btn bg-teal-800 border-2 border-[#042f2e] text-black px-6 py-3 rounded-3xl hover:bg-transparent"
           >
             See Projects
           </a>
@@ -55,7 +55,7 @@ const Hero = () => {
         </div>
 
         <div className="hero-img">
-          <img src={HeroImg} alt="coding illustration" className="lgw-[80%] rounded-3xl p-3 ml-auto" />
+          <img src={HeroImg} alt="coding illustration" className="lgw-[80%] rounded-3xl border-teal-800 p-3 ml-auto" />
         </div>
       </div>
     </section>

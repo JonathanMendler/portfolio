@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
+    <header className="flex justify-between px-5 py-2 bg-primary text-teal-800 fixed w-full z-10">
       <div className="logo text-2xl font-bold text-accent">JM</div>
 
       {/* Desktop Nav */}
