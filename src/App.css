@@ -13,7 +13,8 @@ html {
 }
 
 body {
-  @apply text-lg
+  @apply text-lg;
+  background-image: url("./src/assets/geo_bg.png");
 }
 
 .projects img {
@@ -28,7 +29,7 @@ body {
 
 /* color */
 .bg-primary {
-  background: #0F172A;
+  background: #eaece1;
 }
 
 .bg-secondary {

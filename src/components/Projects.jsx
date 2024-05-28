@@ -1,29 +1,41 @@
 import React from "react";
 import coca from "../assets/coca.png";
 import devloom from "../assets/devloom.png";
-import dumbsplain from "../assets/dumbsplain.png";
+import dumbsplain from "../assets/dumb.png";
+import bce from "../assets/bce.png";
 
 const Projects = () => {
   const projects = [
     {
+      img: dumbsplain,
+      title: "Dumbsplain",
+      desc: "Conversational LLM trivia game | Independent Contributor at Unfinite | Code is private repo",
+      lang: "Python | JavaScript | Tailwind",
+      live: "https://dumbsplain.com//",
+    },
+    {
       img: coca,
       title: "CoCa",
-      desc: "Vanilla HTML and CSS website demonstrating parallax scrolling effect (Parallax only visible on desktop)",
+      desc: "Website demonstrating parallax scrolling effect (Parallax only visible on desktop)",
+      lang: "Vanilla HTML and CSS",
       live: "https://jonathanmendler.github.io/coca/",
       code: "https://github.com/JonathanMendler/coca",
     },
     {
       img: devloom,
       title: "DevLoom",
-      desc: "(WIP/MVP) Full Stack blogging app designed to function as a developers work journal",
+      desc: "(WIP/MVP) Full Stack blogging app designed to function as a developer's work journal",
+      lang: "Rails | React | Tailwind",
       live: "https://devloom.xyz/",
       code: "https://github.com/JonathanMendler/DevLoom",
     },
     {
-      img: dumbsplain,
-      title: "Dumbsplain",
-      desc: "Conversational LLM trivia game | Independent Contributor at Unfinite | Code is private repo",
-      live: "https://dumbsplain.com//",
+      img: bce,
+      title: "Bridge Creek Electric",
+      desc: "Site design for local electrician",
+      lang: "React | Vite | TailwindCSS",
+      live: "https://bridgecreekelectric.com/",
+      code: "https://github.com/JonathanMendler/bridge_creek",
     },
   ];
 
@@ -41,13 +53,15 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="projects container mx-auto grid md:grid-cols-3 gap-10">
+      <div className="projects container mx-auto px-48 grid md:grid-cols-2 gap-10">
         {projects.map((project, i) => {
           return (
             <div className="relative" key={i}>
               <img className="proj-img rounded-3xl border-black" src={project.img} alt={project.title} />
               <div className="flex absolute left-0 right-0 top-[22px] bottom-0 mx-auto w-[90%] h-[90%] rounded-3xl bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
+                <p className="py-5 text-center text-3xl underline font-bold px-2 text-teal-800">{project.title}</p>
                 <p className="py-5 text-center font-bold px-2 text-teal-800">{project.desc}</p>
+                <p className="py-5 text-center font-bold px-2 text-teal-800">{project.lang}</p>
                 {/* Code and site link */}
                 <div className="mx-auto">
                   <a

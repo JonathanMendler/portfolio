@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import logo from "../assets/jm.png";
 import Modal from "../components/Modal";
 
 const Header = () => {
@@ -16,7 +15,7 @@ const Header = () => {
 
   return (
     <header className="flex justify-between px-5 py-2 bg-primary text-teal-800 fixed w-full z-10">
-      <div className="logo text-2xl font-bold text-accent">JM</div>
+      <div className="logo text-3xl font-bold underline text-accent">JM</div>
 
       {/* Desktop Nav */}
       <nav className="hidden md:block">

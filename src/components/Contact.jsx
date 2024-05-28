@@ -3,7 +3,7 @@ import { RiDownload2Fill } from "react-icons/ri";
 
 const Contact = () => {
   return (
-    <section className="bg-primary px-5 py-32" id="contact">
+    <section className="bg-primary border-4 border-y-teal-800 px-5 py-32" id="contact">
       <div className="text-center md:w-[60%] mx-auto text-teal-800">
         <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[200px] mx-auto border-yellow-400 pb-2">Contact Me</h2>
         <p>Interested in building something together? Let's chat!</p>
