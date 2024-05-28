@@ -53,7 +53,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="projects container mx-auto px-48 grid md:grid-cols-2 gap-10">
+      <div className="projects container mx-auto lg:px-48 grid md:grid-cols-2 gap-10">
         {projects.map((project, i) => {
           return (
             <div className="relative" key={i}>
