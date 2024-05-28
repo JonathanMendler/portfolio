@@ -22,14 +22,14 @@ const Hero = () => {
             Tailwind, I thrive on bringing ideas to life through code.
           </p>
 
-          <div className="flex py-5 text-black">
-            <a href="https://github.com/JonathanMendler" className="pr-4 inline-block text-accent hover:text-white">
+          <div className="flex py-5 text-teal-800">
+            <a href="https://github.com/JonathanMendler" className="pr-4 inline-block text-accent hover:text-teal-700">
               {" "}
               <RiGithubFill size={40} />{" "}
             </a>
             <a
               href="https://www.linkedin.com/in/jonathan-mendler/"
-              className="pr-4 inline-block text-accent hover:text-white"
+              className="pr-4 inline-block text-accent hover:text-teal-700"
             >
               {" "}
               <RiLinkedinBoxFill size={40} />{" "}
