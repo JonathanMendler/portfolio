@@ -19,6 +19,7 @@ const Contact = () => {
           <span className="font-bold">Phone:</span>
           <br /> (219) 669-3013
         </p>
+        {/* Resume Download Button */}
         <a href={Resume} download="Jonathan Mendler Resume">
           <button
             type="button"
@@ -26,7 +27,6 @@ const Contact = () => {
           >
             <RiDownload2Fill className="-ml-0.5 h-5 w-5" aria-hidden="true" />
             Resume
-            {/* <PdfDownload /> */}
           </button>
         </a>
       </div>

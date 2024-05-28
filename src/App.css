@@ -32,14 +32,6 @@ body {
   background: #eaece1;
 }
 
-.bg-secondary {
-  background: #1E293B;
-}
-
-.bg-accent {
-  background: #7477FF;
-}
-
 
 nav li a {
   @apply px-4 py-5 text-lg;
