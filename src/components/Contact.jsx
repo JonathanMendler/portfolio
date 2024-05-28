@@ -1,5 +1,6 @@
 import React from "react";
 import { RiDownload2Fill } from "react-icons/ri";
+import Resume from "../assets/Jonathan_Mendler_FS_Software_Developer.pdf";
 
 const Contact = () => {
   return (
@@ -18,14 +19,16 @@ const Contact = () => {
           <span className="font-bold">Phone:</span>
           <br /> (219) 669-3013
         </p>
-        <button
-          type="button"
-          className="inline-flex items-center gap-x-1.5 rounded-md bg-teal-800 mt-3 px-3 py-2 text-sm font-semibold text-yellow-400 shadow-sm hover:bg-teal-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-800"
-        >
-          <RiDownload2Fill className="-ml-0.5 h-5 w-5" aria-hidden="true" />
-          Resume
-          {/* <PdfDownload /> */}
-        </button>
+        <a href={Resume} download="Jonathan Mendler Resume">
+          <button
+            type="button"
+            className="inline-flex items-center gap-x-1.5 rounded-md bg-teal-800 mt-3 px-3 py-2 text-sm font-semibold text-yellow-400 shadow-sm hover:bg-teal-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-800"
+          >
+            <RiDownload2Fill className="-ml-0.5 h-5 w-5" aria-hidden="true" />
+            Resume
+            {/* <PdfDownload /> */}
+          </button>
+        </a>
       </div>
     </section>
   );
