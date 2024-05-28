@@ -24,7 +24,7 @@ const Projects = () => {
     {
       img: devloom,
       title: "DevLoom",
-      desc: "(WIP/MVP) Full Stack blogging app designed to function as a developer's work journal",
+      desc: "(WIP/MVP) Full-Stack blogging app designed to function as a developer's work journal",
       lang: "Rails | React | Tailwind",
       live: "https://devloom.xyz/",
       code: "https://github.com/JonathanMendler/DevLoom",
@@ -32,7 +32,7 @@ const Projects = () => {
     {
       img: bce,
       title: "Bridge Creek Electric",
-      desc: "Site design for local electrician",
+      desc: "Static site for local business",
       lang: "React | Vite | TailwindCSS",
       live: "https://bridgecreekelectric.com/",
       code: "https://github.com/JonathanMendler/bridge_creek",
